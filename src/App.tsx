@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/hooks/use-theme";
+import React from "react";
 
 // Pages
 import Index from "./pages/Index";
@@ -21,7 +22,7 @@ import FinancialAdvisors from "./pages/FinancialAdvisors";
 
 const queryClient = new QueryClient();
 
-const App = () => (
+const App: React.FC = () => (
   <ThemeProvider defaultTheme="light">
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
