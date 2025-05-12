@@ -25,13 +25,19 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				// Finance-focused color scheme
+				// Enhanced finance-focused color scheme
 				finance: {
 					blue: "#2563EB",
 					"light-blue": "#3B82F6",
 					green: "#10B981",
 					gold: "#F59E0B",
-					red: "#EF4444"
+					red: "#EF4444",
+					purple: "#8B5CF6",
+					teal: "#14B8A6",
+					// Dark mode colors
+					"dark-blue": "#1E40AF",
+					"dark-green": "#047857",
+					"dark-gold": "#B45309"
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
@@ -71,6 +77,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			gradients: {
+				'finance-blue': 'linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%)',
+				'finance-green': 'linear-gradient(135deg, #10B981 0%, #047857 100%)',
+				'finance-gold': 'linear-gradient(135deg, #F59E0B 0%, #B45309 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
