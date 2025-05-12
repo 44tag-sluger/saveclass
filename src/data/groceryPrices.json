@@ -1,0 +1,48 @@
+
+{
+  "basic": {
+    "staples": [
+      {"name": "Rice (2kg)", "price": 39.99},
+      {"name": "Maize Meal (5kg)", "price": 52.99},
+      {"name": "Bread (White/Brown)", "price": 17.99},
+      {"name": "Pasta (500g)", "price": 22.99},
+      {"name": "Flour (2.5kg)", "price": 38.99}
+    ],
+    "proteins": [
+      {"name": "Eggs (1 dozen)", "price": 42.99},
+      {"name": "Chicken (Whole 1.5kg)", "price": 79.99},
+      {"name": "Beef Mince (500g)", "price": 74.99},
+      {"name": "Tinned Fish (Pilchards/Tuna)", "price": 25.99},
+      {"name": "Beans/Lentils (500g)", "price": 24.99}
+    ],
+    "dairy": [
+      {"name": "Milk (1L)", "price": 18.99},
+      {"name": "Cheese (300g)", "price": 89.99},
+      {"name": "Yogurt (6 pack)", "price": 44.99}
+    ],
+    "fruits_vegetables": [
+      {"name": "Potatoes (2kg)", "price": 39.99},
+      {"name": "Onions (1kg)", "price": 24.99},
+      {"name": "Tomatoes (1kg)", "price": 29.99},
+      {"name": "Carrots (1kg)", "price": 22.99},
+      {"name": "Cabbage (1 head)", "price": 27.99},
+      {"name": "Bananas (1kg)", "price": 24.99},
+      {"name": "Apples (1.5kg)", "price": 39.99}
+    ],
+    "oils_condiments": [
+      {"name": "Cooking Oil (750ml)", "price": 39.99},
+      {"name": "Sugar (2kg)", "price": 46.99},
+      {"name": "Salt (1kg)", "price": 15.99},
+      {"name": "Tea Bags (100)", "price": 59.99},
+      {"name": "Coffee (250g)", "price": 84.99}
+    ]
+  },
+  "estimatedCosts": {
+    "1": {"weekly": 550, "monthly": 2200},
+    "2": {"weekly": 850, "monthly": 3400},
+    "3": {"weekly": 1150, "monthly": 4600},
+    "4": {"weekly": 1450, "monthly": 5800},
+    "5": {"weekly": 1800, "monthly": 7200},
+    "6+": {"weekly": 2200, "monthly": 8800}
+  }
+}

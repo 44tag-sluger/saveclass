@@ -1,0 +1,45 @@
+
+{
+  "electricity": {
+    "prepaid": {
+      "block1": {"units": 0, "price": 2.01},
+      "block2": {"units": 350, "price": 2.85},
+      "block3": {"units": 600, "price": 3.32}
+    },
+    "averageUsage": {
+      "1": {"daily": 8, "monthly": 240},
+      "2": {"daily": 12, "monthly": 360},
+      "3": {"daily": 16, "monthly": 480},
+      "4": {"daily": 20, "monthly": 600},
+      "5+": {"daily": 25, "monthly": 750}
+    }
+  },
+  "water": {
+    "domestic": {
+      "tier1": {"kiloliters": 0, "price": 15.85},
+      "tier2": {"kiloliters": 6, "price": 24.30},
+      "tier3": {"kiloliters": 10.5, "price": 36.92},
+      "tier4": {"kiloliters": 35, "price": 52.80}
+    },
+    "averageUsage": {
+      "1": {"daily": 0.15, "monthly": 4.5},
+      "2": {"daily": 0.25, "monthly": 7.5},
+      "3": {"daily": 0.35, "monthly": 10.5},
+      "4": {"daily": 0.45, "monthly": 13.5},
+      "5+": {"daily": 0.6, "monthly": 18}
+    },
+    "fixedCharges": {
+      "sanitationBasic": 144.08,
+      "waterBasic": 188.36
+    },
+    "tips": [
+      "Fix leaking taps - a single dripping tap can waste up to 30 liters per day",
+      "Take shorter showers - every minute less saves about 15 liters",
+      "Use a bucket to collect water while waiting for it to warm up",
+      "Install water-efficient showerheads and tap aerators",
+      "Only run washing machines with full loads",
+      "Collect rainwater for garden use",
+      "Water plants during cooler hours to reduce evaporation"
+    ]
+  }
+}

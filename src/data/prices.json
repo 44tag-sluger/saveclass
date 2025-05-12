@@ -1,0 +1,79 @@
+
+{
+  "groceryPrices": {
+    "singlePerson": {
+      "weekly": 450,
+      "monthly": 1800,
+      "description": "Basic grocery expenses for one person"
+    },
+    "couple": {
+      "weekly": 750,
+      "monthly": 3000,
+      "description": "Average grocery expenses for two people"
+    },
+    "smallFamily": {
+      "weekly": 1200,
+      "monthly": 4800,
+      "description": "Typical expenses for a family of 3-4"
+    },
+    "largeFamily": {
+      "weekly": 1800,
+      "monthly": 7200,
+      "description": "Expected expenses for a family of 5+"
+    }
+  },
+  "commonItems": [
+    {
+      "name": "Bread (white, 700g)",
+      "price": 16.99
+    },
+    {
+      "name": "Milk (2L)",
+      "price": 33.99
+    },
+    {
+      "name": "Eggs (dozen)",
+      "price": 44.99
+    },
+    {
+      "name": "Rice (2kg)",
+      "price": 39.99
+    },
+    {
+      "name": "Chicken (whole, 1kg)",
+      "price": 74.99
+    },
+    {
+      "name": "Beef Mince (500g)",
+      "price": 89.99
+    },
+    {
+      "name": "Potatoes (2kg)",
+      "price": 32.99
+    },
+    {
+      "name": "Tomatoes (1kg)",
+      "price": 29.99
+    },
+    {
+      "name": "Onions (1kg)",
+      "price": 24.99
+    },
+    {
+      "name": "Cooking Oil (2L)",
+      "price": 84.99
+    },
+    {
+      "name": "Sugar (2kg)",
+      "price": 39.99
+    },
+    {
+      "name": "Flour (2.5kg)",
+      "price": 44.99
+    }
+  ],
+  "currencies": {
+    "default": "ZAR",
+    "symbol": "R"
+  }
+}
