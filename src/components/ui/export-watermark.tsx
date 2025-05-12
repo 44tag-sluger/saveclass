@@ -97,4 +97,3 @@ export function ExportWatermark({
 }
 
 export default ExportWatermark;
-</lov-add-dependency>html2canvas@latest</lov-add-dependency>
